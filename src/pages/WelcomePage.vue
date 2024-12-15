@@ -21,7 +21,7 @@ export default {
     setTimeout(() => {
       console.log('Redirecting to main page...')
       this.$router.push('/main')
-    }, 5000) // 5秒后跳转
+    }, 5000) // 5s push to main page automatically
   },
 }
 </script>
