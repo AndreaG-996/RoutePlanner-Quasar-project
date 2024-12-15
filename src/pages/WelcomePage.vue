@@ -50,7 +50,6 @@ export default {
 
 .welcome-title {
   font-size: 3rem;
-  font-family: 'Arial', sans-serif; /* Change the design of font */
   font-weight: bold;
   color: #c4ddc3;
 }
