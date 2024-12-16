@@ -68,9 +68,12 @@ export default {
     },
     async fetchAndDisplayRoute() {
       try {
-        const response = await axios.post('http://127.0.0.1:5000/optimise-route', {
-          addresses: this.addresses.filter((address) => address.trim() !== ''),
-        })
+        const response = await axios.post(
+          'https://routeplanner-project-backend.onrender.com/optimise-route',
+          {
+            addresses: this.addresses.filter((address) => address.trim() !== ''),
+          },
+        )
         const routeData = response.data.coordinates
         const optimisedAddresses = response.data.optimised_addresses
         if (!routeData || routeData.length === 0) {
