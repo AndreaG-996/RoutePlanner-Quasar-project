@@ -1,3 +1,5 @@
+# Quasar README.md
+<<<<<<< HEAD
 # Optimise-Route-App (quasar-wrapp-project)
 
 A Quasar Web Route Project
@@ -38,3 +40,9 @@ quasar build
 
 ### Customize the configuration
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+
+# Github README.md
+=======
+# RoutePlanner-Quasar-project
+This repository contains the frontend code for the RoutePlanner project.
+>>>>>>> 69729cd160d0a3440e2a886fd0c12e84ea4358c2
